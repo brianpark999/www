@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Beginner's Guide to Audio Effectors</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mystyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script>      
+</head>
+<body>
+<div class="scroll-top-wrapper">
+	Top
+</div>
+<!--
+<div class="scroll-search">
+    <form action="http://www.google.ca/search?query=" method="query">
+    <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+    <input class = "button" type="submit" name="Submit" value="Search">
+    </form>
+</div>
+-->
+	<header>
+        <nav id="nav-box">
+            <div id='cssmenu'>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li id="current"><a href='compressor.html'>Comp</a></li>
+                    <li><a href='equalizer.html'>EQ</a></li>
+                    <li><a href='advice.html'>ADV</a></li>
+                    <li class='last'><a href='aboutme.html'>About Me</a></li>
+                </ul>
+            </div>         
+        
+        <div id="searchbox">
+                <form action="http://www.google.ca/search?query=" method="query">
+                <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+                <input class = "button" type="submit" name="Submit" value="Search">
+                </form></div>	
+        </nav>      
+         
+        <div id="title">
+            <h1><span>Compressor</span></h1>
+            <h2>from <span>Basic</span> to <span>Basic</span></h2>
+        </div>        
+	</header>    
+        
+        
+	<main>
+		
+        <div id="main-article" align="center">
+			<h2><span>Compressor...?</span></h2>
+			<p>If the audio signal level exceeds the threshold,
+                <br>Compressor compresses the signal by a ratio value.
+			</p>
+            <img id="imground" src="images/c1.png" alt="Compressor" width="60%">
+		</div>
+        
+        <div id="main-article" align="center">
+			<h2><span>Experts says...</span></h2>
+			<p>Compressor is not just for compressing an audio signal level.
+                <br>It changes character and nuance of a sound.</p> 
+		</div>
+        
+		<div id="main-article" align="center">
+			<h2><span>Terminology</span></h2>
+			<p>Threshold
+                <br>Ratio 
+                <br>Attack Time
+                <br>Release Time</p>
+            <img id="imground" src="images/env.jpg" alt="Envelop" width="60%">
+		</div>
+        
+        <div id="main-article" align="center">
+            <h2><span>Threshould</span></h2>
+            <img src="media/t/t.png" alt="Threshold Knob">
+            <p>If an input signal level exceeds threshold level,
+                <br> Compressor starts to compress the input signal.<br>
+                <br><span>Ratio = 3 : 1<br>
+                Attack Time = 10ms<br>Release Time = 80ms</span></p>
+            <div id="main-left">            
+            <p><img src="media/t/t-00.png" height="100px" alt="Threshold : 0dB">
+            <audio controls>
+                <source src="media/t/t-00.mp3" type="audio/mpeg">
+            Threshold : 0dB = Original
+            </audio>
+            <br>Threshold : 0dB = Original</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/t/t-12.png" height="100px" alt="Threshold : -12dB">
+            <audio controls>
+                <source src="media/t/t-12.mp3" type="audio/mpeg">
+            Threshold : -12dB
+            </audio>
+            <br>Threshold : -12dB</p>
+            </div>
+            <div id="main-left">            
+            <p><img src="media/t/t-24.png" height="100px" alt="Threshold : -24dB">
+            <audio controls>
+                <source src="media/t/t-24.mp3" type="audio/mpeg">
+            Threshold : -24dB
+            </audio>
+            <br>Threshold : -24dB</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/t/t-36.png" height="100px" alt="Threshold : -36dB">
+            <audio controls>
+                <source src="media/t/t-36.mp3" type="audio/mpeg">
+            Threshold : -36dB
+            </audio>
+            <br>Threshold : -36dB</p>
+            </div>
+            <p>You can find that entire audio level is changed.</p>
+		</div>
+		
+        <div id="main-article" align="center">
+            <h2><span>Ratio</span></h2>
+            <img src="media/r/r.png" alt="Ratio Knob">
+            <p>If an input signal level is 6dB, Threshold level is 0<br>
+            and Ratio is 2:1, the output signal level becomes 3dB.<br>
+                <br><span>Treshold = -18dB<br>
+                Attack Time = 10ms<br>Release Time = 80ms</span></p>
+            <div id="main-left">            
+            <p><img src="media/r/r1.png" height="100px" alt="Ratio : 1:1">
+            <audio controls>
+                <source src="media/r/r1.mp3" type="audio/mpeg">
+            Ratio = 1:1 = Original
+            </audio>
+            <br>Ratio = 1:1 = Original</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/r/r2.png" height="100px" alt="Ratio : 2:1">
+            <audio controls>
+                <source src="media/r/r2.mp3" type="audio/mpeg">
+            Ratio = 2:1
+            </audio>
+            <br>Ratio = 2:1</p>
+            </div>
+            <div id="main-left">            
+            <p><img src="media/r/r4.png" height="100px" alt="Ratio : 4:1">
+            <audio controls>
+                <source src="media/r/r4.mp3" type="audio/mpeg">
+            Ratio = 4:1
+            </audio>
+            <br>Ratio = 4:1</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/r/r16.png" height="100px" alt="Ratio : 16:1">
+            <audio controls>
+                <source src="media/r/r16.mp3" type="audio/mpeg">
+            Ratio = 16:1
+            </audio>
+            <br>Ratio = 16:1</p>
+            </div>
+            <p>You can find that entire audio level is changed,<br>
+            but the attack of sound still exists.</p>
+		</div>
+        
+        <div id="main-article" align="center">
+            <h2><span>Attack Time</span></h2>
+            <img src="media/at/at.png" alt="Attack Time Knob">
+            <p>Attack Time is the time Compressor takes to start.
+            <br><span>Treshold = -18dB<br>
+                Ratio = 4 : 1<br>Release Time = 80ms</span></p>
+            <div id="main-left">            
+            <p><img src="media/at/at0.png" height="100px" alt="Original">
+            <audio controls>
+                <source src="media/at/at0.mp3" type="audio/mpeg">
+            Original
+            </audio>
+            <br>Original</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/at/at1ms.png" height="100px" alt="Attack Time : 1ms">
+            <audio controls>
+                <source src="media/at/at1ms.mp3" type="audio/mpeg">
+            Attack Time : 1ms
+            </audio>
+            <br>Attack Time : 1ms</p>
+            </div>
+            <div id="main-left">            
+            <p><img src="media/at/at20ms.png" height="100px" alt="Attack Time : 20ms">
+            <audio controls>
+                <source src="media/at/at20ms.mp3" type="audio/mpeg">
+            Attack Time : 20ms
+            </audio>
+            <br>Attack Time : 20ms</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/at/at200ms.png" height="100px" alt="Attack Time : 200ms">
+            <audio controls>
+                <source src="media/at/at200ms.mp3" type="audio/mpeg">
+            Attack Time : 200ms
+            </audio>
+            <br>Attack Time : 200ms</p>
+            </div>
+            <p>You can find that attack of sound is changed.</p>
+		</div>
+        
+        <div id="main-article" align="center">
+            <h2><span>Release Time</span></h2>
+            <img src="media/rt/rt.png" alt="Release Time Knob">
+            <p>Release Time is the time Compressor takes to stops.</p>
+            <div id="main-left">            
+            <p><img src="media/rt/rt5ms.png" height="100px" alt="Release Time : 5ms">
+            <audio controls>
+                <source src="media/rt/rt5ms.mp3" type="audio/mpeg">
+            Release Time : 5ms
+            </audio>
+            <br>Release Time : 5ms</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/rt/rt50ms.png" height="100px" alt="Release Time : 50ms">
+            <audio controls>
+                <source src="media/rt/rt50ms.mp3" type="audio/mpeg">
+            Release Time : 50ms
+            </audio>
+            <br>Release Time : 50ms</p>
+            </div>
+            <div id="main-left">            
+            <p><img src="media/rt/rt300ms.png" height="100px" alt="Release Time : 300ms">
+            <audio controls>
+                <source src="media/rt/rt300ms.mp3" type="audio/mpeg">
+            Release Time : 300ms
+            </audio>
+            <br>Release Time : 300ms</p>
+            </div>
+            <div id="main-right">            
+            <p><img src="media/rt/rt1s.png" height="100px" alt="Release Time : 1s">
+            <audio controls>
+                <source src="media/rt/rt1s.mp3" type="audio/mpeg">
+            Release Time : 1s
+            </audio>
+            <br>Release Time : 1s</p>
+            </div>
+            <p>You can find that tail of sound is changed.</p>
+		</div>
+        
+        <div id="main-article" align="center">
+			<h2><span>Try other sources...!!!</span></h2>
+			<p>These examples are from just one kick drum sound.
+                <br>If you try with other sounds, you can understand more about Compressor.</p> 
+		</div>
+		
+	</main>
+    
+	<footer>		
+			<div class="footer-info">
+				<a href="http://www.facebook.com/brianpark999"><img align="middle" src="images/f.png" height="40" alt="facebook"></a>
+				<a href="http://www.twitter.com/brianpark999"><img align="middle" src="images/t.png" height="40" alt="twitter"></a>
+                <a href="http://www.instagram.com/brianpark999"><img align="middle" src="images/i.png" height="40" alt="instagram"></a>
+                <a href="http://www.soundcloud.com/brianpark999"><img align="middle" src="images/s.png" height="40" alt="soundcloud"></a>
+                <a id="copyright" href="#">User-Centred Interface Design Project</a>
+			</div>			
+	</footer>	
+
+
+
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-search').addClass('show');
+		} else {
+			$('.scroll-search').removeClass('show');
+		}
+	});
+});
+</script>
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+</body>
+</html>

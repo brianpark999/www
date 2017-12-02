@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Beginner's Guide to Audio Effectors</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mystyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script>      
+</head>
+<body>
+<div class="scroll-top-wrapper">
+	Top
+</div>
+<!--
+<div class="scroll-search">
+    <form action="http://www.google.ca/search?query=" method="query">
+    <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+    <input class = "button" type="submit" name="Submit" value="Search">
+    </form>
+</div>
+-->
+	<header>
+        <nav id="nav-box">
+            <div id='cssmenu'>
+                <ul>
+                    <li id="current"><a href='index.html'>Home</a></li>
+                    <li><a href='compressor.html'>Comp</a></li>
+                    <li><a href='equalizer.html'>EQ</a></li>
+                    <li><a href='advice.html'>ADV</a></li>
+                    <li class='last'><a href='aboutme.html'>About Me</a></li>
+                </ul>
+            </div>         
+        
+        <div id="searchbox">
+                <form action="http://www.google.ca/search?query=" method="query">
+                <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+                <input class = "button" type="submit" name="Submit" value="Search">
+                </form></div>	
+        </nav>      
+         
+        <div id="title">
+            <h1>The <span>Beginner</span>'s Guide to <span>Audio Effectors</span></h1>
+            <h2>from <span>Basic</span> to <span>Basic</span></h2>
+        </div>        
+	</header>    
+        
+        
+	<main>
+		<div id="main-center">
+            <script>
+                $(function() {
+                    $(".rslides").responsiveSlides({
+                        auto: true,             // Boolean: Animate automatically, true or false
+                        speed: 1500,            // Integer: Speed of the transition, in milliseconds
+                        timeout: 2500,          // Integer: Time between slide transitions, in milliseconds
+                        pager: false,           // Boolean: Show pager, true or false
+                        nav: false,             // Boolean: Show navigation, true or false
+                        random: false,          // Boolean: Randomize the order of the slides, true or false
+                        pause: false,           // Boolean: Pause on hover, true or false
+                        pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                        prevText: "Previous",   // String: Text for the "previous" button
+                        nextText: "Next",       // String: Text for the "next" button
+                        maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                        navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                        manualControls: "",     // Selector: Declare custom pager navigation
+                        namespace: "rslides",   // String: Change the default namespace used
+                        before: function(){},   // Function: Before callback
+                        after: function(){}     // Function: After callback
+                    });
+                });
+            </script>
+            <ul class="rslides">
+                <li><img src="images/pic0.jpg" alt="&quot;FET Compressor&quot; by Softube"></li>
+                <li><img src="images/pic1.jpg" alt="&quot;BF-76&quot; by Avid"></li>
+                <li><img src="images/pic2.jpg" alt="&quot;FG-MU&quot; by Slate Digital"></li>
+                <li><img src="images/pic3.jpg" alt="&quot;FG-X&quot; by Slate Digital"></li>
+                <li><img src="images/pic4.jpg" alt="&quot;Moogfooger Lowpass FIlter&quot; by Avid"></li>
+                <li><img src="images/pic5.jpg" alt="&quot;Devil-Loc Deluxe&quot; by Soundtoys"></li>
+                <li><img src="images/pic6.jpg" alt="&quot;FilterFreak&quot; by Soundtoys"></li>
+                <li><img src="images/pic7.jpg" alt="&quot;Focusing Equalizer&quot; by Softube"></li>
+            </ul>
+        </div>
+        
+        <div id="main-article" align="center">
+			<h2><span>Welcome</span></h2>
+			<p>Making music is becoming easier than ever.
+                <br>If you can use a computer, you can make a music.
+                <br>This website gives you some basic information about audio effectors.
+			</p>
+            <img id="imground" src="images/wave.png" alt="Wave form" width="60%">
+		</div>
+        
+		<div id="main-article" align="center">
+			<h2><span>Balance</span> = <span>Everything</span></h2>
+			<p>Balance is the key of good mixing.<br> If there are well-recorded audio tracks, 
+                <br>you may not need to use the audio effects.</p>
+            <img id="imground" src="images/mix.jpg" alt="Pro Tools Mixer Window" width="60%">
+		</div>
+        
+        <div id="main-article" align="center">
+			<h2><span>Audio Effector</span> = <span>Balance Controller</span></h2>
+			<p>The main purpose of using audio effectors is<br> To control balance of tracks.</p> 
+		</div>
+        
+        <div id="main-article" align="center">
+            <h2><span><a href='compressor.html'>Compressor</a></span> & 
+            <span><a href='equalizer.html'>Equalizer</a></span><br>=<br>
+            <span>Essential Audio Effectors</span></h2>
+            <a href='compressor.html'><div id="main-left">            
+            <p><img src="images/c1.png" height="200px" alt="Pro Tools Compressor">Compressor<br>compresses audio signal.</p>
+            </div></a>
+            <a href='equalizer.html'><div id="main-right">            
+            <p><img src="images/e1.png" height="200px" alt="Pro Tools Equalizer">Equalizer<br>polishes sound tone.</p>
+            </div></a>
+		</div>
+		
+		
+	</main>
+    
+	<footer>		
+			<div class="footer-info">
+				<a href="http://www.facebook.com/brianpark999"><img align="middle" src="images/f.png" height="40" alt="facebook"></a>
+				<a href="http://www.twitter.com/brianpark999"><img align="middle" src="images/t.png" height="40" alt="twitter"></a>
+                <a href="http://www.instagram.com/brianpark999"><img align="middle" src="images/i.png" height="40" alt="instagram"></a>
+                <a href="http://www.soundcloud.com/brianpark999"><img align="middle" src="images/s.png" height="40" alt="soundcloud"></a>
+                <a id="copyright" href="#">User-Centred Interface Design Project</a>
+			</div>			
+	</footer>	
+
+
+
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-search').addClass('show');
+		} else {
+			$('.scroll-search').removeClass('show');
+		}
+	});
+});
+</script>
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+</body>
+</html>

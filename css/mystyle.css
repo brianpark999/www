@@ -1,0 +1,746 @@
+body
+{
+	background-image:url("../images/bg.jpg");
+	font-family: 'PT Sans', sans-serif;
+	font-size:14px;	
+    min-width:360px;
+	max-width:800px;
+    margin:auto;
+    font-size: 110%;
+}
+
+/* HEADER */
+header
+{
+	background-color: #efefef;
+	min-width:360px;
+	max-width:800px;
+	margin:auto;
+    text-align:right;    
+}
+
+#searchbox
+{
+	text-align:right;
+    float:right;
+    clear:left;
+    z-index: 999;
+    padding:5px 6px 1px 30px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.search {
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    -webkit-border: 10px 0px 0px 10px;
+    height: 40px;
+    font-size: 120%;
+    border:1px;
+}
+.button {
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border: 10px 10px 10px 10px;
+                position:relative;
+                left:-8px;
+                border:3px solid grey;
+                background-color:#626D87;
+                color:white;
+                font-size: 120%;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#A2ADBA;
+}
+
+
+
+span
+{ 
+    color:#4D3639;
+    text-shadow: 7px 7px 7px #aaaaaa;
+}
+
+#title
+{
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000000;
+	float:left;
+	width:98%;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+/* NAV */
+#nav-box
+{
+    max-width: 800px;
+    margin:auto;
+    z-index:999;   
+}
+
+#current
+{
+    background: -webkit-linear-gradient(#121D37, #323D57);
+    background: -o-linear-gradient(#121D37, #323D57);
+    background: linear-gradient(#121D37, #323D57);
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    padding:2px 0px 3px 0px;
+    text-shadow: 5px 5px 7px #000000;
+}
+
+/* MAIN */
+
+#imground{
+    background-color: white;
+    border-radius: 25px;
+}
+
+main span
+{
+    color:#F5F4FF;
+    font-size:130%;
+    text-shadow: 4px 4px 5px black; 
+}
+
+#main-center
+{
+    background-color: grey;
+	float:left;
+	margin:1.5%;
+    border: 3px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border: 5px 5px 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+
+main div h2
+{
+    font-size: 160%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+main div p
+{
+    font-size: 135%;    
+}
+
+span a
+{
+    color:#AD9699;
+    text-decoration: none;
+}
+span a:hover
+{
+    color:white;
+}
+
+div a p
+{
+    color:black;
+}
+
+
+
+#main-article
+{
+    float:center;
+    clear:left;
+    overflow: hidden;
+    margin:1.5%;
+    color:white;
+    text-shadow: 1px 1px 2px black;  
+	background-color: #525866;
+    border: 1px solid grey;
+    opacity: 0.95;
+	padding:0% 3% 3% 3%;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border: 5px 5px 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+}
+
+#main-article img
+{
+        border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border: 5px 5px 5px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+}
+
+#main-left
+{
+    min-width: 358px;
+	float:left;
+    clear:right;
+	width:40%;
+    color:black;
+	background-color: #efefef;
+    margin-right:1%;
+    margin-bottom: 1%;
+        border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border: 5px 5px 5px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+}
+
+#main-right
+{
+    min-width: 358px;
+	float:right;
+	clear:right;
+	width:40%;
+    color:black;
+	background-color: #efefef;
+    margin-bottom: 1%;
+        border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border: 5px 5px 5px 5px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 7px;
+}
+
+
+/* FOOTER */
+footer
+{
+	clear:left;
+	overflow:hidden;
+	min-width:360px;
+	height:70px;
+    float:center;
+    background: -webkit-linear-gradient(#626D77, #424D67);
+    background: -o-linear-gradient(#626D77, #424D67);
+    background: linear-gradient(#626D77, #424D67);
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border: 7px 7px 7px 7px;
+    -webkit-box-shadow: rgba(142, 153, 168, 0.5) 1px 1px 4px;
+    -moz-box-shadow: rgba(142, 153, 168, 0.5) 1px 1px 4px;
+    box-shadow: rgba(142, 153, 168, 0.5) 1px 1px 4px;
+}
+
+.footer-info
+{
+    padding: 15px;
+	float:center;
+}
+
+footer a
+{
+    padding: 30px 5px 5px 30px;
+    opacity: 0.7;
+}
+footer a:hover
+{
+    opacity: 1;
+}
+
+#copyright
+{
+    float:center;
+    color:white;
+    text-decoration: none;
+    font-size: 120%;
+    padding-bottom: 1000px;
+}
+
+
+
+
+
+
+
+/* Slideshow */
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+
+
+
+/* Navigation */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+#cssmenu {
+  background: -webkit-linear-gradient(#828D97, #626D87);
+    background: -o-linear-gradient(#828D97, #626D87);
+    background: linear-gradient(#828D97, #626D87);
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+    
+  margin: 0;
+  width: auto;
+  padding: 0;
+  line-height: 2;
+  display: block;
+  position: fixed;
+  font-family: 'PT Sans', sans-serif;
+  text-shadow: 3px 3px 5px #000000;
+  z-index: 999;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#cssmenu ul:after,
+#cssmenu:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#cssmenu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+}
+#cssmenu ul li a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+    -webkit-box-shadow: white 1px 1px 4px;
+    -moz-box-shadow: white 1px 1px 4px;
+    box-shadow: white 1px 1px 4px;
+}
+#cssmenu ul li ul {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+}
+#cssmenu ul li ul li {
+  max-height: 0;
+  position: absolute;
+  -webkit-transition: max-height 0.4s ease-out;
+  -moz-transition: max-height 0.4s ease-out;
+  -ms-transition: max-height 0.4s ease-out;
+  -o-transition: max-height 0.4s ease-out;
+  transition: max-height 0.4s ease-out;
+  background: #ffffff;
+  border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+
+}
+#cssmenu ul li ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  color: #000000;
+  letter-spacing: 0;
+  display: block;
+  width: 170px;
+  padding: 11px 10px 11px 20px;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+  color: #4cb6ea;
+}
+#cssmenu ul li ul li:hover:after,
+#cssmenu ul li ul li.active:after {
+  background: #4cb6ea;
+  font-size: 110%;
+}
+#cssmenu ul li ul li:hover > ul {
+  left: 100%;
+  top: 0;
+  font-size: 110%;
+}
+#cssmenu ul li ul li:hover > ul > li {
+  max-height: 72px;
+  position: relative;
+}
+#cssmenu > ul > li {
+  float: left;
+  font-size: 110%;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+  display: inline-block;
+  font-size: 110%;
+}
+#cssmenu.align-center > ul {
+  text-align: center;
+  font-size: 110%;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right > ul > li:hover > ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu.align-right ul ul li:hover > ul {
+  right: 100%;
+  left: auto;
+}
+#cssmenu.align-right ul ul li a {
+  text-align: right;
+}
+#cssmenu > ul > li:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  z-index: 0;
+  background: #ffffff;
+  -webkit-transition: height .2s;
+  -moz-transition: height .2s;
+  -ms-transition: height .2s;
+  -o-transition: height .2s;
+  transition: height .2s;
+  border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    font-size: 110%;
+}
+
+#cssmenu > ul > li > a {
+  color: #ffffff;
+  padding: 10px 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  z-index: 2;
+  position: relative;
+}
+#cssmenu > ul > li:hover:after,
+#cssmenu > ul > li.active:after {
+  height: 100%;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #000000;
+  background: white;
+  text-shadow: 3px 3px 5px #ffffff;
+}
+#cssmenu > ul > li:hover > a:after,
+#cssmenu > ul > li.active > a:after {
+  background: #000000;
+}
+#cssmenu > ul > li:hover > a:before,
+#cssmenu > ul > li.active > a:before {
+  border-top-color: #ffffff;
+}
+#cssmenu > ul > li:hover > ul {
+  left: 0;
+}
+#cssmenu > ul > li:hover > ul > li {
+  max-height: 72px;
+  position: relative;
+}
+#cssmenu #menu-button {
+  display: none;
+  background: -webkit-linear-gradient(#828D97, #626D87);
+    background: -o-linear-gradient(#828D97, #626D87);
+    background: linear-gradient(#828D97, #626D87);
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border: 0px 0px 7px 7px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 4px;
+}
+#cssmenu > ul > li > a {
+  display: block;
+  font-size: 110%;
+}
+#cssmenu > ul > li {
+  width: auto;
+  font-size: 110%;
+}
+#cssmenu > ul > li > ul {
+  width: 170px;
+  display: block;
+  font-size: 110%;
+}
+#cssmenu > ul > li > ul > li {
+  width: 170px;
+  display: block;
+  font-size: 110%;
+}
+@media all and (max-width: 780px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu > ul {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.35s ease-out;
+    -moz-transition: max-height 0.35s ease-out;
+    -ms-transition: max-height 0.35s ease-out;
+    -o-transition: max-height 0.35s ease-out;
+    transition: max-height 0.35s ease-out;
+    font-size: 110%;
+  }
+  #cssmenu > ul > li > ul {
+      font-size: 110%;
+    width: 100%;
+    display: block;
+  }
+  #cssmenu.align-right ul li a {
+    text-align: left;
+    font-size: 110%;
+  }
+  #cssmenu > ul > li > ul > li {
+    width: 100%;
+    display: block;
+    font-size: 110%;
+  }
+  #cssmenu.align-right ul ul li a {
+    text-align: left;
+    font-size: 110%;
+  }
+  #cssmenu > ul > li > ul > li > a {
+    width: 100%;
+    display: block;
+    font-size: 110%;
+  }
+  #cssmenu ul li ul li a {
+    width: 100%;
+    font-size: 110%;
+  }
+  #cssmenu.align-center > ul {
+    text-align: left;
+    font-size: 110%;
+  }
+  #cssmenu.align-center > ul > li {
+    display: block;
+    font-size: 110%;
+  }
+  #cssmenu > ul.open {
+    max-height: 1000px;
+    border-top: 1px solid rgba(110, 110, 110, 0.25);
+    font-size: 110%;
+  }
+  #cssmenu ul {
+    width: 100%;
+    font-size: 110%;
+  }
+  #cssmenu ul > li {
+    float: none;
+    width: 100%;
+    font-size: 110%;
+  }
+  #cssmenu ul li a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 110%;
+  }
+  #cssmenu ul > li:after {
+    display: none;
+  }
+  #cssmenu ul li.has-sub > a:after,
+  #cssmenu ul li.has-sub > a:before,
+  #cssmenu ul li ul li.has-sub:after,
+  #cssmenu ul li ul li.has-sub:before {
+    display: none;
+  }
+  #cssmenu ul li ul,
+  #cssmenu ul li ul li ul,
+  #cssmenu ul li ul li:hover > ul,
+  #cssmenu.align-right ul li ul,
+  #cssmenu.align-right ul li ul li ul,
+  #cssmenu.align-right ul li ul li:hover > ul {
+    left: 0;
+    position: relative;
+    right: auto;
+  }
+  #cssmenu ul li ul li,
+  #cssmenu ul li:hover > ul > li {
+    max-height: 999px;
+    position: relative;
+    background: none;
+  }
+  #cssmenu ul li ul li a {
+    padding: 8px 20px 8px 35px;
+    color: #ffffff;
+  }
+  #cssmenu ul li ul ul li a {
+    padding: 8px 20px 8px 50px;
+  }
+  #cssmenu ul li ul li:hover > a {
+    color: #000000;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 140%;
+  }
+}
+
+
+
+
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+    font-size: 300%;
+	z-index: 99999999;
+    background-color: #999999;
+	color: #eeeeee;
+	width: 100px;
+	height: 70px;
+	right: 20px;
+	bottom: 60px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;    
+}
+.scroll-top-wrapper:hover {
+	background-color: #666666;
+    text-shadow: 5px 5px 7px #000000;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 0.5; 
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+ 
+ 
+ 
+
+ 
+.scroll-search {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+    font-size: 140%;
+	z-index: 99999999;
+    background-color: #aaaaaa;
+	color: #eeeeee;
+   	height: 45px;
+	right: 30px;
+	bottom: 30px;
+    padding: 3px 0px 8px 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-search:hover {
+	background-color: #666666;
+}
+.scroll-search.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-search i.fa {
+	line-height: inherit;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Beginner's Guide to Audio Effectors</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mystyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+   <script src="js/script.js"></script>      
+</head>
+<body>
+<div class="scroll-top-wrapper">
+	Top
+</div>
+<!--
+<div class="scroll-search">
+    <form action="http://www.google.ca/search?query=" method="query">
+    <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+    <input class = "button" type="submit" name="Submit" value="Search">
+    </form>
+</div>
+-->
+	<header>
+        <nav id="nav-box">
+            <div id='cssmenu'>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='compressor.html'>Comp</a></li>
+                    <li><a href='equalizer.html'>EQ</a></li>
+                    <li><a href='advice.html'>ADV</a></li>
+                    <li id="current" class='last'><a href='aboutme.html'>About Me</a></li>
+                </ul>
+            </div>         
+        
+        <div id="searchbox">
+                <form action="http://www.google.ca/search?query=" method="query">
+                <input class = "search" type="text" name="query" size="12" maxlength="50" placeholder="Search..." required>
+                <input class = "button" type="submit" name="Submit" value="Search">
+                </form></div>	
+        </nav>      
+         
+        <div id="title">
+            <h1><span>About Me</span></h1>
+            <h2>from <span>Basic</span> to <span>Basic</span></h2>
+        </div>        
+	</header>    
+        
+        
+	<main>
+		
+        <div id="main-article" align="center">
+			<h2><span>Who am I...???</span></h2>
+			<p>Music maker
+                <br>A member of PRS for Music 
+                <br>A student of Lethbridge College
+			</p>
+            <img id="imground" src="images/wave.png" alt="Wave form" width="60%">
+		</div>
+        
+        <div id="main-article" align="center">
+			<h2><span>Equipment List : Hardware</span></h2>
+			<p><span>Audio Interface:</span> RME Audio Babyface Silver Edition
+                <br><span>Headphone:</span> AKG K271a MKII                
+                <br><span>Instrument:</span> Acorn Masterkey61</p>
+                
+            <img id="imground" src="images/bfs.jpg" alt="RME Babyface Silver edition" width="50%">
+		</div>
+        
+		<div id="main-article" align="center">
+			<h2><span>Equipment List : Software</span></h2>
+			<p><span>DAW:</span> Ableton Live, Avid Pro Tools, Propellerhead Reason
+                <br><span>FX:</span> Soundtoys 5 Bundle, iZotope Music Production Bundle
+                <br>Valhalla VintageVerb, Room, Shimmer, Ubermod
+                <br>Slate Digital VCC, VTM, FG-X<br>And Etc...  
+                <br><span>Instrument:</span> FXpansion DCAM, Xfer record Serum
+                <br>U-he Ace, Bazille, Hive<br>And Etc...</p>
+                
+            <img id="imground" src="images/pts.jpg" alt="Pro Tools and Plug-ins" width="60%">
+		</div>       
+	</main>
+    
+	<footer>		
+			<div class="footer-info">
+				<a href="http://www.facebook.com/brianpark999"><img align="middle" src="images/f.png" height="40" alt="facebook"></a>
+				<a href="http://www.twitter.com/brianpark999"><img align="middle" src="images/t.png" height="40" alt="twitter"></a>
+                <a href="http://www.instagram.com/brianpark999"><img align="middle" src="images/i.png" height="40" alt="instagram"></a>
+                <a href="http://www.soundcloud.com/brianpark999"><img align="middle" src="images/s.png" height="40" alt="soundcloud"></a>
+                <a id="copyright" href="#">User-Centred Interface Design Project</a>
+			</div>			
+	</footer>	
+
+
+
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-search').addClass('show');
+		} else {
+			$('.scroll-search').removeClass('show');
+		}
+	});
+});
+</script>
+<script>
+ 
+$(function(){
+ 
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 60) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+ 
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+</script>
+</body>
+</html>
